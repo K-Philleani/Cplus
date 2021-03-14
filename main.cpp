@@ -38,4 +38,10 @@ int main() {
     cout << "num3 = " << num3 << endl;
     cout << "num4 = " << num4 << endl;
 
+    // sizeof
+    cout << "short占用内存空间为：" << sizeof(short) << endl;
+    cout << "int占用内存空间为：" << sizeof(int) << endl;
+    cout << "long占用内存空间为：" << sizeof(long) << endl;
+    cout << "long long占用内存空间为：" << sizeof(long long) << endl;
+    // 整型大小比较: short < int <= long <= long long
 }
